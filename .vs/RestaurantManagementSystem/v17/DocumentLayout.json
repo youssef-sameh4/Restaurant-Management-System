@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Compu\\Desktop\\RestaurantManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A25D56C-F1D9-4EE5-B60C-1A03FF5F437D}|RestaurantManagementSystem.csproj|c:\\users\\compu\\desktop\\restaurantmanagementsystem\\clscashiermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A25D56C-F1D9-4EE5-B60C-1A03FF5F437D}|RestaurantManagementSystem.csproj|solutionrelative:clscashiermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A25D56C-F1D9-4EE5-B60C-1A03FF5F437D}|RestaurantManagementSystem.csproj|c:\\users\\compu\\desktop\\restaurantmanagementsystem\\clscustomermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A25D56C-F1D9-4EE5-B60C-1A03FF5F437D}|RestaurantManagementSystem.csproj|solutionrelative:clscustomermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A25D56C-F1D9-4EE5-B60C-1A03FF5F437D}|RestaurantManagementSystem.csproj|c:\\users\\compu\\desktop\\restaurantmanagementsystem\\clsitemfileoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A25D56C-F1D9-4EE5-B60C-1A03FF5F437D}|RestaurantManagementSystem.csproj|solutionrelative:clsitemfileoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A25D56C-F1D9-4EE5-B60C-1A03FF5F437D}|RestaurantManagementSystem.csproj|c:\\users\\compu\\desktop\\restaurantmanagementsystem\\clsemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A25D56C-F1D9-4EE5-B60C-1A03FF5F437D}|RestaurantManagementSystem.csproj|solutionrelative:clsemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A25D56C-F1D9-4EE5-B60C-1A03FF5F437D}|RestaurantManagementSystem.csproj|c:\\users\\compu\\desktop\\restaurantmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A25D56C-F1D9-4EE5-B60C-1A03FF5F437D}|RestaurantManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A25D56C-F1D9-4EE5-B60C-1A03FF5F437D}|RestaurantManagementSystem.csproj|c:\\users\\compu\\desktop\\restaurantmanagementsystem\\clsorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A25D56C-F1D9-4EE5-B60C-1A03FF5F437D}|RestaurantManagementSystem.csproj|solutionrelative:clsorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A25D56C-F1D9-4EE5-B60C-1A03FF5F437D}|RestaurantManagementSystem.csproj|c:\\users\\compu\\desktop\\restaurantmanagementsystem\\clsorderfileopration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A25D56C-F1D9-4EE5-B60C-1A03FF5F437D}|RestaurantManagementSystem.csproj|solutionrelative:clsorderfileopration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A25D56C-F1D9-4EE5-B60C-1A03FF5F437D}|RestaurantManagementSystem.csproj|c:\\users\\compu\\desktop\\restaurantmanagementsystem\\clsmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A25D56C-F1D9-4EE5-B60C-1A03FF5F437D}|RestaurantManagementSystem.csproj|solutionrelative:clsmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A25D56C-F1D9-4EE5-B60C-1A03FF5F437D}|RestaurantManagementSystem.csproj|c:\\users\\compu\\desktop\\restaurantmanagementsystem\\clsitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A25D56C-F1D9-4EE5-B60C-1A03FF5F437D}|RestaurantManagementSystem.csproj|solutionrelative:clsitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "clsMainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Compu\\Desktop\\RestaurantManagementSystem\\clsMainMenu.cs",
+              "RelativeDocumentMoniker": "clsMainMenu.cs",
+              "ToolTip": "C:\\Users\\Compu\\Desktop\\RestaurantManagementSystem\\clsMainMenu.cs",
+              "RelativeToolTip": "clsMainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T00:33:56.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsCashierMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Compu\\Desktop\\RestaurantManagementSystem\\clsCashierMenu.cs",
+              "RelativeDocumentMoniker": "clsCashierMenu.cs",
+              "ToolTip": "C:\\Users\\Compu\\Desktop\\RestaurantManagementSystem\\clsCashierMenu.cs",
+              "RelativeToolTip": "clsCashierMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T22:34:31.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsCustomerMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Compu\\Desktop\\RestaurantManagementSystem\\clsCustomerMenu.cs",
+              "RelativeDocumentMoniker": "clsCustomerMenu.cs",
+              "ToolTip": "C:\\Users\\Compu\\Desktop\\RestaurantManagementSystem\\clsCustomerMenu.cs",
+              "RelativeToolTip": "clsCustomerMenu.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwD0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T03:50:28.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "clsOrderFileOpration.cs",
+              "DocumentMoniker": "C:\\Users\\Compu\\Desktop\\RestaurantManagementSystem\\clsOrderFileOpration.cs",
+              "RelativeDocumentMoniker": "clsOrderFileOpration.cs",
+              "ToolTip": "C:\\Users\\Compu\\Desktop\\RestaurantManagementSystem\\clsOrderFileOpration.cs",
+              "RelativeToolTip": "clsOrderFileOpration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:06:51.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "clsOrder.cs",
+              "DocumentMoniker": "C:\\Users\\Compu\\Desktop\\RestaurantManagementSystem\\clsOrder.cs",
+              "RelativeDocumentMoniker": "clsOrder.cs",
+              "ToolTip": "C:\\Users\\Compu\\Desktop\\RestaurantManagementSystem\\clsOrder.cs",
+              "RelativeToolTip": "clsOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:23:02.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clsEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\Compu\\Desktop\\RestaurantManagementSystem\\clsEmployee.cs",
+              "RelativeDocumentMoniker": "clsEmployee.cs",
+              "ToolTip": "C:\\Users\\Compu\\Desktop\\RestaurantManagementSystem\\clsEmployee.cs",
+              "RelativeToolTip": "clsEmployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T19:54:58.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "clsItemFileOperations.cs",
+              "DocumentMoniker": "C:\\Users\\Compu\\Desktop\\RestaurantManagementSystem\\clsItemFileOperations.cs",
+              "RelativeDocumentMoniker": "clsItemFileOperations.cs",
+              "ToolTip": "C:\\Users\\Compu\\Desktop\\RestaurantManagementSystem\\clsItemFileOperations.cs",
+              "RelativeToolTip": "clsItemFileOperations.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAgwFoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T13:31:18.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "clsItem.cs",
+              "DocumentMoniker": "C:\\Users\\Compu\\Desktop\\RestaurantManagementSystem\\clsItem.cs",
+              "RelativeDocumentMoniker": "clsItem.cs",
+              "ToolTip": "C:\\Users\\Compu\\Desktop\\RestaurantManagementSystem\\clsItem.cs",
+              "RelativeToolTip": "clsItem.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T23:59:20.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Compu\\Desktop\\RestaurantManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Compu\\Desktop\\RestaurantManagementSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T23:56:57.512Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

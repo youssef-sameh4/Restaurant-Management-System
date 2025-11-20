@@ -1,0 +1,9 @@
+1#//#Lemon juice#//#50#//#5#//#drink
+2#//#Burger#//#70#//#20#//#food
+3#//#Pizza#//#150#//#20#//#food
+4#//#Salad#//#40#//#50#//#food
+5#//#Cola#//#15#//#60#//#drink
+6#//#Orange Juice#//#25#//#30#//#drink
+7#//#Water Bottle#//#10#//#70#//#drink
+8#//#Coffee#//#20#//#100#//#drink
+9#//#Tea#//#15#//#100#//#drink

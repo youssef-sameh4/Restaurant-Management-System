@@ -1,0 +1,14 @@
+C:\Users\Compu\Desktop\RestaurantManagementSystem\bin\Debug\net8.0\RestaurantManagementSystem.exe
+C:\Users\Compu\Desktop\RestaurantManagementSystem\bin\Debug\net8.0\RestaurantManagementSystem.deps.json
+C:\Users\Compu\Desktop\RestaurantManagementSystem\bin\Debug\net8.0\RestaurantManagementSystem.runtimeconfig.json
+C:\Users\Compu\Desktop\RestaurantManagementSystem\bin\Debug\net8.0\RestaurantManagementSystem.dll
+C:\Users\Compu\Desktop\RestaurantManagementSystem\bin\Debug\net8.0\RestaurantManagementSystem.pdb
+C:\Users\Compu\Desktop\RestaurantManagementSystem\obj\Debug\net8.0\RestaurantManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Compu\Desktop\RestaurantManagementSystem\obj\Debug\net8.0\RestaurantManagementSystem.AssemblyInfoInputs.cache
+C:\Users\Compu\Desktop\RestaurantManagementSystem\obj\Debug\net8.0\RestaurantManagementSystem.AssemblyInfo.cs
+C:\Users\Compu\Desktop\RestaurantManagementSystem\obj\Debug\net8.0\RestaurantManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\Compu\Desktop\RestaurantManagementSystem\obj\Debug\net8.0\RestaurantManagementSystem.dll
+C:\Users\Compu\Desktop\RestaurantManagementSystem\obj\Debug\net8.0\refint\RestaurantManagementSystem.dll
+C:\Users\Compu\Desktop\RestaurantManagementSystem\obj\Debug\net8.0\RestaurantManagementSystem.pdb
+C:\Users\Compu\Desktop\RestaurantManagementSystem\obj\Debug\net8.0\RestaurantManagementSystem.genruntimeconfig.cache
+C:\Users\Compu\Desktop\RestaurantManagementSystem\obj\Debug\net8.0\ref\RestaurantManagementSystem.dll
