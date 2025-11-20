@@ -1,0 +1,8 @@
+Restaurant-Management-System/
+│
+├─ images/  "C:\Users\Compu\OneDrive - Mansoura University - Main\Pictures\Screenshots\Screenshot 2025-11-20 193108.png"
+│   └─ RestaurantManagementUML.png
+├─ clsItem.cs
+├─ clsOrder.cs
+├─ README.md
+└─ ... (باقي الملفات)
