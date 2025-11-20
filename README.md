@@ -35,7 +35,8 @@ The system supports managing items, orders, employees, and customers efficiently
 
 The following diagram shows the structure of the project and the relationships between classes:
 
-![UML Diagram](./728d98ef-a295-4119-81e7-9e324a837d68.png)
+![UML Diagram](./images/Screenshot2025-11-20.png)
+
 
 **Classes Included:**
 - `clsItem` – Represents individual items.
