@@ -103,7 +103,7 @@ Restaurant-Management-System/
 *(Replace with your real UML image)*
 
 ```
-<img src="sandbox:/mnt/data/Screenshot 2025-11-20 193108.png" alt="UML Diagram" />
+<img src=""C:\Users\Compu\OneDrive - Mansoura University - Main\Pictures\Screenshots\Screenshot 2025-11-20 193108.png"" alt="UML Diagram" />
 ```
 
 ---
