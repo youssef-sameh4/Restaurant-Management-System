@@ -35,7 +35,75 @@ The system supports managing items, orders, employees, and customers efficiently
 
 The following diagram shows the structure of the project and the relationships between classes:
 
-![UML Diagram](./images/Screenshot2025-11-20.png)
+@startuml
+class clsItem {
+    - Id: int
+    - Name: string
+    - Category: string
+    - Price: double
+    - Quantity: int
+    + Id {get; set;}
+    + Name {get; set;}
+    + Category {get; set;}
+    + Price {get; set;}
+    + Quantity {get; set;}
+}
+
+class clsItemFileOperations {
+    - _filename: string
+    + AddNewItem(item)
+    + ReadAllItems()
+    + SearchOnItem(id)
+    + UpdateItem(id)
+    + DeleteItem(id)
+    + ChooseTypeOfMenu(type)
+}
+
+class clsOrder {
+    - OrderId: int
+    - CustomerName: string
+    - ItemId: int
+    - ItemName: string
+    - ItemPrice: double
+    - TotalPrice: double
+    - OrderDate: DateTime
+    + clsOrder()
+}
+
+class clsOrderFileOperation {
+    - _filename: string
+    + SaveNewOrder(order)
+    + ReadAllOrders()
+    + DeleteOrder(id)
+}
+
+class clsEmployee {
+    + EmployeeMenu()
+    + EnterItem()
+    + PrintItems(list)
+}
+
+class clsCustomerMenu {
+    + CustomerMenu()
+}
+
+class clsCashierMenu {
+    + CashierMenu()
+}
+
+class clsMainMenu {
+    + MainMenu()
+}
+
+clsEmployee --> clsItem
+clsCustomerMenu --> clsItem
+clsCustomerMenu --> clsOrder
+clsCashierMenu --> clsOrder
+clsMainMenu --> clsEmployee
+clsMainMenu --> clsCustomerMenu
+clsMainMenu --> clsCashierMenu
+@enduml
+
 
 
 **Classes Included:**
