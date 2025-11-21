@@ -98,87 +98,86 @@ Restaurant-Management-System/
 
 ---
 
-## 📸 UML Diagram
+##  UML Diagram
 
-*(Replace with your real UML image)*
+@startuml
+!theme plain
+skinparam classAttributeIconSize 0
+skinparam monochrome true
 
-┌─────────────────┐
-│   ClsMainMenu   │
-│                 │
-│ • MainMenu()    │
-└─────────────────┘
-          │
-          │
-    ┌─────▼─────┐   ┌─────────────────┐   ┌─────────────────┐
-    │ ClsItem   │   │ ClsCustomerMenu │   │ ClsCashierMenu  │
-    │           │   │                 │   │                 │
-    │ ○ id:int  │   │ • CustomerMenu()│   │ • CashierMenu() │
-    │ ○ name:   │   └─────────────────┘   └─────────────────┘
-    │   string  │
-    │ ○ price:  │
-    │   double  │
-    │ ○ quantity│
-    │   :int    │
-    │           │
-    │ • Id{     │
-    │   get;set │
-    │ }         │
-    │ • Name{   │
-    │   get;set │
-    │ }         │
-    │ • Price{  │
-    │   get;set │
-    │ }         │
-    │ • Quantity│
-    │   {get;set│
-    │ }         │
-    └───────────┘
-          │
-          │
-┌─────────▼─────────┐   ┌─────────────────┐   ┌─────────────────┐
-│ ClsItemFileOps    │   │ ClsOrderFileOp  │   │ ClsEmployee     │
-│                   │   │                 │   │                 │
-│ ○ filename:string │   │ ○ filename:     │   │ • EmployeeMenu(│
-│ • ReadAllItems()  │   │   string        │   │   Menu)         │
-│ • SearchOnItem(id)│   │ • SaveNewOrder( │   │ • PrintItems(   │
-│ • UpdateItem(id)  │   │   order)        │   │   list)         │
-│ • DeleteItem(id,  │   │ • ReadAllOrders │   └─────────────────┘
-│   MenuType)       │   │   ()            │
-│ • ChooseTypeOfMenu│   │ • DeleteOrder(  │
-│   (type)          │   │   id)           │
-└───────────────────┘   └─────────────────┘
-          │                       │
-          │                       │
-    ┌─────▼─────┐           ┌─────▼─────┐
-    │ ClsOrder  │           │ ClsCustomer│
-    │           │           │            │
-    │ ○ OrderId │           │ ○ id:int   │
-    │   :int    │           │ ○ Name:    │
-    │ ○ ItemId: │           │   string   │
-    │   int     │           │ ○ Category │
-    │ ○ ItemName│           │   {get;set}│
-    │   :string │           │ ○ Price    │
-    │ ○ ItemPrice│          │   {get;set}│
-    │   :double │           │ ○ Quantity │
-    │ ○ TotalPrice│         │   {get;set}│
-    │   :double │           │            │
-    │ ○ OrderDate│          │ • Id{      │
-    │   DateTime│           │   get;set} │
-    │           │           │ • Name{    │
-    │ • ClsOrder│           │   get;set} │
-    │   ()      │           │ }          │
-    └───────────┘           └────────────┘
----
+classDiagram
+%% Entities
+class ClsItem {
+    +int id
+    +string Name
+    +double Price
+    +int Quantity
+    +string Category
+    +Id {get; set;}
+    +Name {get; set;}
+    +Price {get; set;}
+    +Quantity {get; set;}
+    +Category {get; set;}
+}
 
-## 🗂️ **Sample Data (menu.txt)**
+class ClsOrder {
+    +int OrderId
+    +int ItemId
+    +string ItemName
+    +double ItemPrice
+    +double TotalPrice
+    +DateTime OrderDate
+    +ClsOrder()
+}
 
-```
-1 Burger 55.00 50
-2 Pizza 120.00 30
-3 Fries 25.00 100
-4 Pepsi 15.00 200
-```
+%% Menus
+class ClsMainMenu {
+    +MainMenu()
+}
 
+class ClsCustomerMenu {
+    +CustomerMenu()
+}
+
+class ClsCashierMenu {
+    +CashierMenu()
+}
+
+class ClsEmployee {
+    +EmployeeMenu(Menu)
+    +PrintItems(list)
+}
+
+%% File Operations
+class ClsItemFileOps {
+    +string filename
+    +ReadAllItems(Item)
+    +SearchOnItem(id)
+    +UpdateItem(id)
+    +DeleteItem(id, MenuType)
+    +ChooseTypeOfMenu(type)
+}
+
+class ClsOrderFileOp {
+    +string filename
+    +SaveNewOrder(order)
+    +ReadAllOrders()
+    +DeleteOrder(id)
+}
+
+%% Relationships
+ClsMainMenu ..> ClsItemFileOps : uses
+ClsMainMenu ..> ClsOrderFileOp : uses
+ClsMainMenu ..> ClsCustomerMenu : uses
+ClsMainMenu ..> ClsCashierMenu : uses
+ClsMainMenu ..> ClsEmployee : uses
+ClsItemFileOps ..> ClsItem : uses
+ClsOrderFileOp ..> ClsOrder : uses
+ClsEmployee ..> ClsItem : uses
+ClsCustomerMenu ..> ClsOrder : uses
+ClsCashierMenu ..> ClsOrder : uses
+
+@enduml
 ---
 
 ## 📜 **Example Receipt**
