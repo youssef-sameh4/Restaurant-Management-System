@@ -21,7 +21,7 @@ The program is fully designed using **OOP concepts**: Classes, Encapsulation, In
 
 ## 🔧 **Tech Stack**
 
-* **Language:** C++
+* **Language:** C#
 * **Paradigm:** Object-Oriented Programming (OOP)
 * **File Handling:** Text files for data storage
 
@@ -102,10 +102,72 @@ Restaurant-Management-System/
 
 *(Replace with your real UML image)*
 
-```
-<img src="/mnt/data/Screenshot 2025-11-20 193108.png" alt="UML Diagram" />
-```
-
+┌─────────────────┐
+│   ClsMainMenu   │
+│                 │
+│ • MainMenu()    │
+└─────────────────┘
+          │
+          │
+    ┌─────▼─────┐   ┌─────────────────┐   ┌─────────────────┐
+    │ ClsItem   │   │ ClsCustomerMenu │   │ ClsCashierMenu  │
+    │           │   │                 │   │                 │
+    │ ○ id:int  │   │ • CustomerMenu()│   │ • CashierMenu() │
+    │ ○ name:   │   └─────────────────┘   └─────────────────┘
+    │   string  │
+    │ ○ price:  │
+    │   double  │
+    │ ○ quantity│
+    │   :int    │
+    │           │
+    │ • Id{     │
+    │   get;set │
+    │ }         │
+    │ • Name{   │
+    │   get;set │
+    │ }         │
+    │ • Price{  │
+    │   get;set │
+    │ }         │
+    │ • Quantity│
+    │   {get;set│
+    │ }         │
+    └───────────┘
+          │
+          │
+┌─────────▼─────────┐   ┌─────────────────┐   ┌─────────────────┐
+│ ClsItemFileOps    │   │ ClsOrderFileOp  │   │ ClsEmployee     │
+│                   │   │                 │   │                 │
+│ ○ filename:string │   │ ○ filename:     │   │ • EmployeeMenu(│
+│ • ReadAllItems()  │   │   string        │   │   Menu)         │
+│ • SearchOnItem(id)│   │ • SaveNewOrder( │   │ • PrintItems(   │
+│ • UpdateItem(id)  │   │   order)        │   │   list)         │
+│ • DeleteItem(id,  │   │ • ReadAllOrders │   └─────────────────┘
+│   MenuType)       │   │   ()            │
+│ • ChooseTypeOfMenu│   │ • DeleteOrder(  │
+│   (type)          │   │   id)           │
+└───────────────────┘   └─────────────────┘
+          │                       │
+          │                       │
+    ┌─────▼─────┐           ┌─────▼─────┐
+    │ ClsOrder  │           │ ClsCustomer│
+    │           │           │            │
+    │ ○ OrderId │           │ ○ id:int   │
+    │   :int    │           │ ○ Name:    │
+    │ ○ ItemId: │           │   string   │
+    │   int     │           │ ○ Category │
+    │ ○ ItemName│           │   {get;set}│
+    │   :string │           │ ○ Price    │
+    │ ○ ItemPrice│          │   {get;set}│
+    │   :double │           │ ○ Quantity │
+    │ ○ TotalPrice│         │   {get;set}│
+    │   :double │           │            │
+    │ ○ OrderDate│          │ • Id{      │
+    │   DateTime│           │   get;set} │
+    │           │           │ • Name{    │
+    │ • ClsOrder│           │   get;set} │
+    │   ()      │           │ }          │
+    └───────────┘           └────────────┘
 ---
 
 ## 🗂️ **Sample Data (menu.txt)**
